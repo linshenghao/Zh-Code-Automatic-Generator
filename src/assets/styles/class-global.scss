@@ -1,0 +1,368 @@
+.success {
+  color:  #3fad7e
+}
+
+// 提示的文本
+.tip-text {
+  color: #5e5e5e;
+}
+
+/* 禁止浏览器复制 */
+.stopCopy {
+  user-select: none;  //禁止复制
+  user-select: none;
+  user-select: none;
+}
+.primary {
+  color: #0086ce !important;
+}
+.textAlignCenter {
+  text-align: center;
+}
+.textAlignLeft {
+  text-align: left;
+}
+.info {
+  color:  #5573b6
+}
+.danger {
+  color: red !important;
+}
+.error {
+  color: red !important;
+}
+.warning {
+  color:  #f18d00 !important;
+}
+
+// 主题色
+.theme {
+  color: $theme !important;
+}
+.themefen {
+  color: $themefen !important;
+}
+.bg_themefen {
+  color: white;
+  background-color: $themefen !important;
+}
+.false {
+  color: #ffffff;
+  background-color: #c9c9c9 !important;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black !important;
+}
+.bg-primary {
+  background-color: #0086ce !important;
+}
+.bg-success {
+  background-color:  #3fad7e !important;
+}
+.bg-theme {
+  color: white;
+  background-color: $theme !important;
+}
+.bg-danger {
+  background-color:  red !important;
+}
+.bg_cobalt_blue {
+  background-color:  #5573b6 !important;
+}
+.bg-warning {
+  background-color:  #f18d00 !important;
+}
+.bg-eee {
+  background-color:  #eeeeee !important;
+}
+.bg-white {
+  background-color:  white !important;
+}
+
+
+/* 字体16px */
+.fz12 {
+  font-size: 12px !important;
+}
+
+/* 字体16px */
+.fz14 {
+  font-size: 14px !important;
+}
+
+/* 字体16px */
+.fz16 {
+  font-size: 16px !important;
+}
+
+/* 字体17px */
+.fz17 {
+  font-size: 17px !important;
+}
+.fz18 {
+  font-size: 18px !important;
+}
+
+/* 字体32px */
+.fz32 {
+  font-size: 32px !important;
+  font-weight: bold;
+  color: black;
+}
+.mbB10 {
+  margin-bottom: 10px !important;
+}
+.mbT5 {
+  margin-top: 5px !important;
+}
+.mbT10 {
+  margin-top: 10px !important;
+}
+.mbT20 {
+  margin-top: 20px !important;
+}
+.mbT30 {
+  margin-top: 30px !important;
+}
+.mbL10 {
+  margin-left: 10px !important;
+}
+.mbR10 {
+  margin-right: 10px !important;
+}
+.mbR20 {
+  margin-right: 20px !important;
+}
+.mbB15 {
+  margin-bottom: 15px !important;
+}
+.mbB20 {
+  margin-bottom: 20px !important;
+}
+.mbB30 {
+  margin-bottom: 30px !important;
+}
+.mbT5 {
+  margin-top: 5px;
+}
+
+
+/* 首页的公共背景 */
+.bg_b {
+  background-color: #eff4f7 !important;
+  border-top: solid 1px #dddddd;
+}
+.bg_w {
+  background-color: white !important;
+  border-top: solid 1px #dddddd;
+}
+.hide {
+  display: none;
+}
+.p10 {
+  padding: 10px!important;
+}
+.pdB20 {
+  padding-bottom: 20px !important;
+}
+.pd0 {
+  padding:  0 !important;
+}
+.pdL0 {
+  padding-left: 0 !important;
+}
+.pdL20 {
+  padding-left: 20px !important;
+}
+.pdL30 {
+  padding-left: 30px !important;
+}
+.p20 {
+  padding: 20px!important;
+}
+.w100 {
+  width: 100px !important;
+}
+.w120 {
+  width: 120px !important;
+}
+.w150 {
+  width: 150px !important;
+}
+.w200 {
+  width: 200px !important;
+}
+
+// 高度 100 %
+.h100ercentage {
+  height: 100%;
+}
+.w100percentage {
+  width: 100%;
+}
+
+// 边宽透明色
+.boder-transparent {
+  border: 1px solid $themetransparent !important;;
+}
+
+// 边框是主题色
+.boder-theme {
+  border: 1px solid $theme !important;
+}
+.border-c9c9c9 {
+  border: 1px solid $borderc9 !important;
+}
+.border-bottom-c9c9c9 {
+  border-bottom: 1px solid $borderc9;
+}
+
+// 禁止复制
+.disableCopy {
+  user-select: none;  //禁止复制
+  user-select: none;
+  user-select: none;
+}
+
+// 移动上去 显示 主题色边框
+.hover {
+  &:hover {
+    border: 1px solid $theme !important;
+  }
+}
+
+/* 公共去浮动 */
+.clearfix::after {display:block;height:0;clear:both;visibility:hidden;content:".";}
+.clearfix {zoom:1}//ie浏览器清除浮动
+
+/* 向左浮动 */
+.fl {
+  float: left;
+}
+
+/* 向右浮动 */
+.fr {
+  float: right ;
+}
+.h-title {
+  margin: 50px 0 25px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+  text-align: center;
+}
+
+/* div父元素设置model-box    子元素内联元素设置  vertical-align:middle; */
+.model-box {
+  height: 100%;
+}
+.model-box::after {
+  display:inline-block;
+  width:0;
+  height:100%;
+  vertical-align:middle;
+  content:"";
+}
+.verticalAlignMiddle {
+  vertical-align:middle;
+}
+.h-ul,.v-ul {
+  padding: 0;
+  margin: 0;
+}
+.v-ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.h-ul {
+  /*  border: 1px solid #e6e6e6; */
+  border-top: none;
+}
+.h-ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.T {
+  margin-bottom: 30px;
+  font: normal normal bold 24px/24px "Adobe 黑体 Std R";
+  color: #333333;
+  text-align: center;
+}
+
+/* 首页的公共背景 */
+.bg_b {
+  background-color: #eff4f7 !important;
+  border-top: solid 1px #dddddd;
+}
+.bg_w {
+  background-color: white !important;
+  border-top: solid 1px #dddddd;
+}
+.hide {
+  display: none;
+}
+.p10 {
+  padding: 10px!important;
+}
+.pd5 {
+  padding: 5px!important;
+}
+.p20 {
+  padding: 20px!important;
+}
+
+/* 二行显示省略号 */
+.TextBreakTwoLine {
+  position: relative;
+  max-height: 40px;
+  overflow: hidden;
+  line-height: 20px;
+
+  /* 超出部分隐藏并在伪类上加上省略号 */
+  &::after {
+    /*    content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+        background: -webkit-linear-gradient(left, transparent, #fff 55%);
+        background: -o-linear-gradient(right, transparent, #fff 55%);
+        background: -moz-linear-gradient(right, transparent, #fff 55%);
+        background: linear-gradient(to right, transparent, #fff 55%); */
+  }
+}
+.MAIN_BOX {
+  box-sizing: border-box;
+  width: calc(1170px + 84px) !important;
+  padding-right: 42px !important;
+  padding-left: 42px !important;;
+  margin: auto;
+}
+.min-width1170 {
+  min-width: 1170px !important;
+}
+.defaultBtn {
+  display: inline-block;
+  width: 111px;
+  height: 35px;
+  line-height: 35px;
+  color: white;
+  cursor: pointer;
+  background-color: $theme;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+.float_layar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  margin: auto;
+}
+

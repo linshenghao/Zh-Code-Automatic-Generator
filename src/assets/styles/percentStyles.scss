@@ -1,0 +1,90 @@
+//个人中心的卡片样式
+@mixin centerCard{
+  width: 1040px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  min-height: 366px;
+  background-color: #ffffff;
+  padding: 36px 43px;
+}
+
+//个人中心的标题
+@mixin title{
+  font-size: $font17;
+  line-height: 17px;
+  color: #000000;
+  @include defaultMp;
+}
+//个人中心标题
+.title{
+  font-size: $font17;
+  line-height: 17px;
+  color: #000000;
+  @include defaultMp;
+  margin-bottom: 23px;
+}
+
+//列表的样式
+@mixin ntchild{
+  &:last-child{
+    border-right: none;
+  }
+  &:nth-child(1){
+    width: 111px;
+  }
+  &:nth-child(2){
+    width: 130px;
+  }
+  &:nth-child(3){
+    width: 150px;
+  }
+  &:nth-child(4){
+    width: 150px;
+  }
+  &:nth-child(5){
+    width: 110px;
+  }
+  &:nth-child(6){
+    width: 218px;
+  }
+  &:nth-child(7){
+    width: 162px;
+  }
+}
+
+
+//手机号固定框的样式
+@mixin phonefix{
+  .step{
+    &-content {
+      padding-top: 65px;
+      &-phone {
+        width: calc(300px);
+        margin: auto;
+        box-sizing: border-box;
+        .phone-fixed {
+          height: 35px;
+          @include font14;
+          line-height: 35px;
+          padding: 0 16px;
+          background: #eeeeee;
+          border: 1px solid #c9c9c9;
+          border-right: none;
+          color: #5e5e5e;
+          display: inline-block;
+        }
+        .phone-input {
+          height: 35px;
+          @include defaultMp;
+         @include font14;
+          padding-left: 14px;
+          vertical-align: top;
+          border: 1px solid #c9c9c9;
+          background: #fff;
+          outline: none;
+          color: #5e5e5e;
+        }
+      }
+    }
+  }
+}

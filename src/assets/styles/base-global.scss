@@ -1,0 +1,69 @@
+html,body {
+  width: auto;
+
+  //height: auto;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  //min-width: 1170px;
+  background: white;
+}
+#__nuxt {
+  height: 100%;
+}
+#__layout {
+  height: 100%;
+}
+body {
+  font:12px  "Source Han Serif SC";
+}
+img {
+  vertical-align:top;
+}
+p {padding:0;
+  margin:0
+}
+p {
+  word-wrap:break-word
+}
+
+
+//  阿里巴巴适量图库的图标
+.icon {
+  width: 1em; height: 1em;
+  overflow: hidden;
+  vertical-align: -0.15em;
+  fill: currentcolor;
+}
+* {
+  /*  box-sizing: border-box; */
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px ;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px ;
+  font-weight: bold;
+}
+h4 {
+  font-size:16px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 13px;
+}
+h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+
+

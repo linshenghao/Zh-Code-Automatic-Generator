@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",  // 目标语言版本
+    "module": "commonjs", // 指定生成代码的模板标准
+    "outDir": "./dist", // 指定输出目录
+    "rootDir": "./", // 编译文件根目录
+    "strict": true, // 严格模式
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true, // 没有默认导出时, 编译器会创建一个默认导出
+    "esModuleInterop": true, // 允许export= 导出, 由import from导入
+    "forceConsistentCasingInFileNames": true, // 强制区分大小写
+    "noImplicitAny": false,
+    "removeComments": true,      // 删除注释 
+    "sourceMap": true // 生成目标文件的sourceMap文件
+  },
+  "include": [ // 需要编译的的文件和目录
+    ".prettierrc",
+    "src/**/*",
+    "src/app.ts"
+  ],
+  "files": [
+    "src/app.ts"
+  ]
+}

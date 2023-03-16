@@ -1,0 +1,80 @@
+@mixin font14{
+  font-size: $font14;
+  line-height: 14px;
+  font-weight: normal;
+}
+@mixin font15{
+  font-size: $font15;
+  line-height: 15px;
+}
+@mixin font16{
+  font-size: $font16;
+  line-height: 16px;
+}
+@mixin font23{
+  font-size: 23px;
+  line-height: 23px;
+  font-weight: normal;
+}
+@mixin font17{
+  font-size: $font17;
+  line-height: 17px;
+}
+@mixin font18{
+  font-size: $font18;
+  line-height: 14px;
+  font-weight: normal;
+}
+@mixin font48{
+  font-size: $font48;
+  line-height: 48px;
+  font-weight: normal;
+}
+@mixin defaultInput{
+  background-color: #ffffff;
+  border: solid 1px #c9c9c9;
+  display: inline-block;
+  height: 35px;
+  padding-left: 15px;
+  line-height: 35px;
+}
+@mixin defaultBtn{
+  height: 35px;
+  line-height: 35px;
+  color: white;
+  border-radius: 5px;
+  width: 111px;
+  background-color: $theme;
+  cursor: pointer;
+}
+@mixin defaultMp{
+  padding: 0;
+  margin: 0;
+}
+@mixin ATBM{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin ALRM{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@mixin AM{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin btn{
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+
